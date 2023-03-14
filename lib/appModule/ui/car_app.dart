@@ -1,5 +1,3 @@
-import 'dart:math';
-
 import 'package:five_media/appModule/ui/bloc/car_bloc.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
@@ -42,7 +40,6 @@ class CarCounterClass extends StatelessWidget {
                                 index < state.cars.length;
                                 index++)
                               Positioned(
-                                top: random.nextInt(250).toDouble(),
                                 child: SizedBox(
                                   height: 150,
                                   width: 150,
